@@ -1,0 +1,96 @@
+
+body{
+   
+    background-image: url(Palestra_Hardcore.jpg);
+    background-size: cover; 
+   /* background-position: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.Bottone{
+    background-color: rgba(0,0,0,0.5);
+    /* font-size: 30px; */
+    font-size: 50px;;
+    padding:20px 20px; 
+    text-decoration: none; /* Levare sottolineatura*/
+    color: white;
+    border: 3px solid #ccffff;
+    border-radius: 10px;
+    
+    z-index: 1;
+}
+
+.Bottone:hover{
+    background-color: #ccffff;
+    color: black;
+    /* border: 3px solid cyan; */
+
+ 
+}
+
+
+
+main{
+    background-color: rgba(0,0,0,0.5);
+    border: 5px solid black;
+    display: flex;
+    
+    margin-top: 2%;
+    margin-bottom: 1%;
+    /*
+    margin-left: 30%;
+    margin-right: 45%;
+    
+     flex-direction: column; 
+    */
+}
+
+div{
+    background-color: rgba(0,0,0,0.2); 
+    font-weight: normal;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Anton', monospace;
+    color: white;
+ 
+    
+    z-index: 1;
+}
+
+main p{
+    margin: 0.3em;
+    color: white;
+    font-size: 20px;
+}
+
+
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    margin-left: 0.5em;
+}
+
+#Errore{
+    font-size: 20px;
+    color: #e60000;
+}
+
+#Errore2{
+    font-size: 30px;
+    color: #e60000;
+   
+}
+
+#testo{
+    background-color: rgba(0,0,0,0.5);
+    font-size: 20px;
+    color: white;
+}
